@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zarządzanie katalogami</title>
+</head>
+<body>
+<h1>Zarządzanie katalogami</h1>
+<form action="manager.php" method="post">
+    <label for="path">Ścieżka:</label>
+    <input type="text" id="path" name="path" required><br><br>
+
+    <label for="dir_name">Nazwa katalogu:</label>
+    <input type="text" id="dir_name" name="dir_name" required><br><br>
+
+    <label for="operation">Operacja:</label>
+    <select id="operation" name="operation">
+        <option value="read">Odczytaj</option>
+        <option value="create">Stwórz</option>
+        <option value="delete">Usuń</option>
+    </select><br><br>
+
+    <input type="submit" value="Wykonaj">
+</form>
+</body>
+</html>
