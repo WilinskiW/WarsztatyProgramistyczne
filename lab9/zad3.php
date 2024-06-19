@@ -8,5 +8,5 @@ if (!file_exists($counter_file)) {
     $count++;
     file_put_contents($counter_file, $count);
 }
-echo "Liczba odwiedzin: " . $count;
+echo "Liczba odwiedzin: " . readfile($counter_file);
 ?>

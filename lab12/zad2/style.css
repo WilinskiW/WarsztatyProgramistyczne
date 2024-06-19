@@ -1,0 +1,54 @@
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 99%;
+    height: 30px;
+    margin: 4px;
+}
+
+.submit {
+    width: 100px;
+    margin: 10px;
+    height: 50px;
+    color: white;
+    background: forestgreen;
+    border: hidden;
+    border-radius: 10px;
+}
+
+#add-car-form {
+    display: flex;
+}
+
+#select-person {
+    height: 50px;
+}
+
+.database-table {
+    width: 100%;
+    text-align: center;
+}
+
+.database-table,th, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.actions {
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+
